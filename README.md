@@ -28,3 +28,12 @@ Task 1 includes **backend APIs and frontend UI for user registration, login, pro
 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+
+## Run backend:
+uvicorn app:app --reload
+
+## Run frontend:
+streamlit run ui.py
+
+## Open browser and interact with the chatbot via Streamlit UI.
